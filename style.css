@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 
-
 :root {
 	--main-bg-color: white;
 	--cyan: hsl(179, 62%, 43%);
 	--bright-yellow: hsl(71, 73%, 54%);
 	--light-gray: hsl(204, 43%, 93%);
 	--grayish-blue: hsl(218, 22%, 67%);
+}
+* {
+	box-sizing: border-box;
 }
 
 body {
@@ -16,10 +18,11 @@ body {
 }
 
 .wrapper {
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 .attribution {
@@ -34,32 +37,37 @@ body {
 .card-container {
 	display: flex;
 	flex-direction: column;
-	border-radius: 5px;
+	border-radius: 8px;
 	width: 640px;
 	height: 480px;
 	background-color: var(--main-bg-color);
 	/* margin: auto; */
+	box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 .upper-header {
 	flex-grow: 2;
-	padding: 3% 5%;
+	padding: 20px 100px 20px 40px;
 }
 
 .columns-container {
 	display: flex;
 	flex-direction: row;
 	height: 100%;
+	justify-content: space-between;
 }
 
 .column {
 	background-color: var(--cyan);
-	color: var(--main-bg-color)
-	padding: 3% 5%;
-	max-width: 50%;
+	color: var(--main-bg-color);
+	width: 50%;
 }
 
-.left .upper-header {
+.column:hover {
+	filter: brightness(110%);
+}
+
+.left {
 	padding: 40px;
 }
 
@@ -67,18 +75,19 @@ body {
 	padding: 40px 100px 40px 40px;
 }
 
-.column .button {
+.button {
 	background-color: var(--bright-yellow);
 	border: none;
 	border-radius: 5px;
-	padding: 15px 25px;
 	color: white;
 	text-align: center;
 	padding: 10%;
+	width: 100%;
 }
 
 .header-title {
 	color: var(--cyan);
+	padding: 3px;
 }
 
 .header-subtitle {
@@ -87,4 +96,5 @@ body {
 
 .header-content {
 	color: var(--grayish-blue);
+	line-height: 2;
 }
