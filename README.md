@@ -75,7 +75,8 @@ A massive thank you to our community sponsors!
 - [Sizzy](https://bit.ly/fm-sizzy) is an extremely useful browser designed specifically to improve a developer's workflow when building websites. You can fire up multiple device emulators and run them all in sync while building out your web pages. Perfect for helping build fully responsive websites!
 - [Dracula PRO](https://bit.ly/fem-dracula) is a beautiful dark theme to help keep you focused and productive while you code. The theme isn't just for your editor either. You can also apply it to your most-used apps like your terminal and even Slack!
 
-    Co-authored-by: Audrey <audrey.eliz.jones@gmail.com>
-    Co-authored-by: Kenneth Young Castro <kenneth.young90@gmail.com>
-    Co-authored-by: cynthia eddy <cyn7117@gmail.com>
+#### Co-authored-by: 
+- Audrey <audrey.eliz.jones@gmail.com>
+- Kenneth Young Castro <kenneth.young90@gmail.com>
+- cynthia eddy <cyn7117@gmail.com>
 
